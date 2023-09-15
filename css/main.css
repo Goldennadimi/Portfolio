@@ -590,9 +590,9 @@ hr {
       .project-list li:last-child {
         margin-right: 0;
       }
-      .detail{
+      .detail {
         font-style: italic;
-        font-size: 10px;
+        font-size: 9px;
       }
       .web-project-item.active{
         border-bottom: 1px solid #F96167;
