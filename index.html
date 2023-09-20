@@ -24,6 +24,19 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
     <title>Golden's Portfolio</title>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          if (window.location.href.includes("index.html")) {
+              var typed = new Typed(".input", {
+                  strings: ["Ux Designer", "UI Designer", "Frontend Developer"],
+                  typeSpeed: 80,
+                  backSpeed: 85,
+                  loop: true,
+              });
+          }
+      });
+  </script>
   </head>
 
   <body class="bg" id="top">
@@ -144,13 +157,6 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="node_modules/typed.js/dist/typed.umd.js"></script>
-
-
     <script src="js/script.js"></script>
-
-
-  
-  
   </body>
 </html>

@@ -108,17 +108,3 @@ document.addEventListener('click', () => {
         cursor.classList.remove("expand");
     }, 500)
 })
-
-
-// type effect
-window.onload = function () {
-  if (window.location.href.includes("index.html")) {
-    var typed = new Typed(".input", {
-      strings: ["Ux Designer", "UI Designer", "Frontend Developer"],
-      typeSpeed: 80,
-      backSpeed: 85,
-      loop: true,
-    });
-  }
-};
-
