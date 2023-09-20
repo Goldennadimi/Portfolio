@@ -112,17 +112,17 @@ document.addEventListener('click', () => {
 
 // type effect
 document.addEventListener("DOMContentLoaded", function () {
-  if (window.location.pathname.endsWith("index.html") || window.location.pathname === '/') {
+  var inputElement = document.querySelector(".input");
+  if (inputElement) {
     setTimeout(function () {
-      var inputElement = document.querySelector(".input");
-      if (inputElement) {
-        var typed = new Typed(inputElement, {
-          strings: ["UX Designer", "UI Designer", "Frontend Developer"],
-          typeSpeed: 80,
-          backSpeed: 85,
-          loop: true,
-        });
-      }
+      var typed = new Typed(inputElement, {
+        strings: ["UX Designer", "UI Designer", "Frontend Developer"],
+        typeSpeed: 80,
+        backSpeed: 85,
+        loop: true,
+      });
     }, 1000);
   }
 });
+
+
