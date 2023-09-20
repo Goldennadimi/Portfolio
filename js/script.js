@@ -111,7 +111,7 @@ document.addEventListener('click', () => {
 
 
 // type effect
-document.addEventListener("DOMContentLoaded", function () {
+window.onload = function () {
   if (window.location.href.includes("index.html")) {
     var typed = new Typed(".input", {
       strings: ["Ux Designer", "UI Designer", "Frontend Developer"],
@@ -120,4 +120,5 @@ document.addEventListener("DOMContentLoaded", function () {
       loop: true,
     });
   }
-});
+};
+
