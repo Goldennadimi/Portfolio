@@ -111,11 +111,13 @@ document.addEventListener('click', () => {
 
 
 // type effect
-if (window.location.href.includes("index.html")) {
-  var typed=new Typed(".input",{
-    strings:["Ux Designer","UI Designer","Frontend Developer"],
-    typeSpeed:80,
-    backSpeed:85,
-    loop:true
-  });
-}
+document.addEventListener("DOMContentLoaded", function () {
+  if (window.location.href.includes("index.html")) {
+    var typed = new Typed(".input", {
+      strings: ["Ux Designer", "UI Designer", "Frontend Developer"],
+      typeSpeed: 80,
+      backSpeed: 85,
+      loop: true,
+    });
+  }
+});
