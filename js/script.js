@@ -118,7 +118,4 @@ if (window.location.href.includes("index.html")) {
     backSpeed:85,
     loop:true
   });
-
-
-
 }
