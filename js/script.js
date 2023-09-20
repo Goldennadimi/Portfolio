@@ -108,3 +108,21 @@ document.addEventListener('click', () => {
         cursor.classList.remove("expand");
     }, 500)
 })
+
+
+// type effect
+document.addEventListener("DOMContentLoaded", function () {
+  if (window.location.href.includes("index.html")) {
+    setTimeout(function () {
+      var inputElement = document.querySelector(".input");
+      if (inputElement) {
+        var typed = new Typed(inputElement, {
+          strings: ["Ux Designer", "UI Designer", "Frontend Developer"],
+          typeSpeed: 80,
+          backSpeed: 85,
+          loop: true,
+        });
+      }
+    }, 1000); 
+  }
+});
