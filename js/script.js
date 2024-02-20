@@ -46,22 +46,32 @@ document.addEventListener("click", function (event) {
         $('#uxCarouselProject1').show();
         $('#uxCarouselProject2').hide();
         $('#uxCarouselProject3').hide();
-        $('#uxCarouselProject4').hide(); 
+        $('#uxCarouselProject4').hide();
+        $('#uxCarouselProject5').hide();
       } else if (projectName === 'Dreamland Cafe') {
         $('#uxCarouselProject1').hide();
         $('#uxCarouselProject2').show();
         $('#uxCarouselProject3').hide();
         $('#uxCarouselProject4').hide();
+        $('#uxCarouselProject5').hide();
       } else if (projectName === 'Crafty-Pie Bakery') {
         $('#uxCarouselProject1').hide();
         $('#uxCarouselProject2').hide();
         $('#uxCarouselProject3').show();
         $('#uxCarouselProject4').hide();
+        $('#uxCarouselProject5').hide();
       } else if (projectName === 'Southwest Airline') {
         $('#uxCarouselProject1').hide();
         $('#uxCarouselProject2').hide();
         $('#uxCarouselProject3').hide();
         $('#uxCarouselProject4').show();
+        $('#uxCarouselProject5').hide();
+      } else if (projectName === 'Doula App') {
+        $('#uxCarouselProject1').hide();
+        $('#uxCarouselProject2').hide();
+        $('#uxCarouselProject3').hide();
+        $('#uxCarouselProject4').hide();
+        $('#uxCarouselProject5').show();
       }
     });
     // illustration project click event
